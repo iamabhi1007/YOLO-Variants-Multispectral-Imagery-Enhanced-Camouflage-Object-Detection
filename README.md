@@ -4,6 +4,8 @@ Enhanced Camouflage Object Detection in Multispectral Imagery using Advanced YOL
 Abstract. This study investigates the efficacy of advanced YOLO (You Only Look Once) variants, specifically YOLOv5, v7, v8, and v9, in detecting con-cealed camouflaged objects within multispectral imagery. Utilizing the Altum-PT multispectral camera, a comprehensive dataset of multispectral images was cap-tured and preprocessed using techniques such as fusion, false coloring, and pansharpening to enhance image quality and extract relevant features. The per-formance of these YOLO models was evaluated through extensive experiments across diverse environmental contexts. The results demonstrate that YOLO vari-ants, especially when combined with Slicing Aided Hyper Inference (SAHI), ex-hibit robust detection capabilities, with precision ranging from 93.9% to 98.2% and recall varying from 80.2% to 98.1%. Despite variations in performance met-rics due to architectural nuances and training methodologies, all models show promise for applications in surveillance and security. The implementation of SAHI successfully rectified false detections, improving prediction accuracy. This study contributes to advancing concealed object detection techniques and under-scores the potential of deep learning in enhancing surveillance capabilities.
 Keywords: Multispectral, Camouflaged objects, Altum-PT, SAHI, YOLO, False colouring, deep learning, Aerial Imagery, Surveillance, Reconnaissance.
 
+Note: The above training codes for the Yolo variants are provided.
+
 Methodology
 
 ![image](https://github.com/user-attachments/assets/4c849086-7740-4b59-981b-c101b6722210)
