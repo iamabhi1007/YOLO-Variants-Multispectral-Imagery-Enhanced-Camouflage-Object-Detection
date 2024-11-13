@@ -4,7 +4,32 @@ Enhanced Camouflage Object Detection in Multispectral Imagery using Advanced YOL
 Abstract. This study investigates the efficacy of advanced YOLO (You Only Look Once) variants, specifically YOLOv5, v7, v8, and v9, in detecting con-cealed camouflaged objects within multispectral imagery. Utilizing the Altum-PT multispectral camera, a comprehensive dataset of multispectral images was cap-tured and preprocessed using techniques such as fusion, false coloring, and pansharpening to enhance image quality and extract relevant features. The per-formance of these YOLO models was evaluated through extensive experiments across diverse environmental contexts. The results demonstrate that YOLO vari-ants, especially when combined with Slicing Aided Hyper Inference (SAHI), ex-hibit robust detection capabilities, with precision ranging from 93.9% to 98.2% and recall varying from 80.2% to 98.1%. Despite variations in performance met-rics due to architectural nuances and training methodologies, all models show promise for applications in surveillance and security. The implementation of SAHI successfully rectified false detections, improving prediction accuracy. This study contributes to advancing concealed object detection techniques and under-scores the potential of deep learning in enhancing surveillance capabilities.
 Keywords: Multispectral, Camouflaged objects, Altum-PT, SAHI, YOLO, False colouring, deep learning, Aerial Imagery, Surveillance, Reconnaissance.
 
-Note: The above training codes for the Yolo variants are provided. Below given is the sample results and performance parameters of each yolo variant. Upon publication of the research article more information will be updated.
+Implementation
+
+The implementation of this study was carried out using Google Colab, leveraging its GPU support (T4 GPU) for efficient model training, validation, and testing. Python served as the primary programming language, with the Ultralytics YOLO models (v5, v7, v8, and v9) and SAHI models utilized to facilitate accurate camouflaged object detection. Google Colab’s environment enabled the rapid processing and experimentation needed for this study, while its GPU resources optimized the training and testing phases, ensuring high-performance model evaluation and consistent results across varied environmental contexts.
+
+The detailed description of models and processes refer the Ultralytics website. https://docs.ultralytics.com/models/
+
+For creating your own custom model refer to videos featuring custom object detection using YOLO.
+
+Installation
+
+Include step-by-step installation instructions, using package managers like pip or conda.
+
+Example:
+pip install -r requirements.txt
+
+1. Running the Code
+
+Include example commands to run the main script or specific functions.
+
+Example:
+python main.py --input <input_file> --output <output_file>
+
+2. Model Training, Validation, and Testing
+
+Example command for training: (similarly for validation and testing)
+python train.py --model yolov8 --data <data_path> --epochs 50
 
 Methodology
 
@@ -54,7 +79,8 @@ Fig. 11. YOLO v9 prediction on test images in various environments, fused and mu
 ![Screenshot 2024-11-11 105552](https://github.com/user-attachments/assets/0d25c1bd-8b44-417d-9132-ec2d69c86ac0)
 
 Discussion
-The findings confirm that SAHI enhanced YOLO models exhibit improved perfor-mance in detecting camouflaged objects, a notable advancement over traditional approaches. For example, YOLOv5 and v8 with SAHI mitigated false detections, a critical improvement over methods like RYOLO and S2ANet which, although effec-tive in spectral attention, lacked precision in fine-grained object differentiation in high-noise or low-contrast scenarios [5,12]. By refining YOLO’s detection capabilities with multispectral fusion and pansharpening, that aligns with recent advances while introducing novel optimizations tailored to challenging camouflaged conditions.
+Across all models, YOLO v5 and v9 demonstrated the most consistent high perfor-mance, with YOLO v5 excelling in recall and YOLO v9 providing strong localization at mAP@0.5:.95. YOLO v8 displayed commendable precision. However, recall in complex scenarios remains a limitation. YOLO v7 showed robust detection for well-defined objects but faced challenges with camouflaged targets. This comparative analysis reveals that while YOLO v9 offers superior adaptability across diverse envi-ronments, YOLO v5's high precision and recall make it a valuable choice for camou-flaged object detection tasks, particularly in surveillance and security applications.
+However, the findings confirm that SAHI with YOLO models exhibit improved per-formance in detecting camouflaged objects, a notable advancement over traditional approaches. For example, YOLOv5 and v8 with SAHI mitigated false detections, a critical improvement over methods like RYOLO and S2ANet which, although effec-tive in spectral attention, lacked precision in fine-grained object differentiation in high-noise or low-contrast scenarios [5,12]. Refining YOLO’s detection capabilities with multispectral fusion and pansharpening aligns with recent advances while intro-ducing novel optimizations tailored to challenging camouflaged conditions.
 The proposed approach differs from EAPT and other pyramid transformers that use hierarchical attention mechanisms, as we prioritize lightweight architectures for real-time processing, which is critical in surveillance applications. Compared to these more computationally intensive models, our implementation offers a practical balance between accuracy and resource efficiency, addressing operational demands in dy-namic and resource-limited environments [14].
 
 Conclusions
@@ -78,16 +104,26 @@ References
 
 Authors
 Abhilash Hegde 1*[0000-0002-0734-9171], 
+
 Siddalingesh S Navalgund 2[0000-0001-6857-915X], 
+
 Archana Nandibewoor 1#$[0000-0002-3698-6057], 
+
 Aachan B Kulkarni 3, 
+
 Anurag G Deshpande 3, 
+
 Abushekh 3, 
+
 Bhairavi M Anantpur 3
+
 *JRF, Research Scholar, ARDB-DRDO Research Lab, Department of Electronics and Commu-nication Engineering, SDM College of Engineering and Technology, Dharwad-580002, Affiliat-ed to Visvesvaraya Technological University, Belagavi-590018, Karnataka, India
+
 2Assistant Professor, Department of Electronics and Communication Engineering, SDM College of Engineering and Technology, Dharwad-580002, Affiliated to Visvesvaraya Technological University, Belagavi-590018, Karnataka, India
+
 #Assistant Professor, ARDB-DRDO Research Lab, Department of CSE, SDM College of Engi-neering and Technology, Dharwad-580002, Affiliated to Visvesvaraya Technological University, Belagavi-590018, Karnataka, India
 $Associate Professor, Department of AI/ML, Mangalore Institute of Technology and Engineer-ing, Moodabidri, Affiliated to Visvesvaraya Technological University, Belagavi-590018, Karna-taka, India
+
 3Student, Department of CSE, SDM College of Engineering and Technology, Dharwad-580002, Affiliated to Visvesvaraya Technological University, Belagavi, Karnataka, India
 1#narchana2006@gmail.com 1*abhilash.hegde1007@gmail.com 
 
