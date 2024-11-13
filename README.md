@@ -8,9 +8,11 @@ Implementation
 
 The implementation of this study was carried out using Google Colab, leveraging its GPU support (T4 GPU) for efficient model training, validation, and testing. Python served as the primary programming language, with the Ultralytics YOLO models (v5, v7, v8, and v9) and SAHI models utilized to facilitate accurate camouflaged object detection. Google Colab’s environment enabled the rapid processing and experimentation needed for this study, while its GPU resources optimized the training and testing phases, ensuring high-performance model evaluation and consistent results across varied environmental contexts.
 
-The detailed description of models and processes refer the Ultralytics website. https://docs.ultralytics.com/models/
+First download the required Yolo model from Ultralytics. Make necessary changes in the dataset.yaml files based on your annotation data. Then change the parameters of training depending on number of classes (manually calculate other parameter metrics). Make sure all the files in the model are present. Now the initial setup is done. 
 
-For creating your own custom model refer to videos featuring custom object detection using YOLO.
+The detailed description of models and processes refer the Ultralytics website (recommended). https://docs.ultralytics.com/models/
+
+For creating your own custom model refer to videos featuring custom object detection using YOLO. (recommended)
 
 Installation
 
