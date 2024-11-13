@@ -114,13 +114,11 @@ Abushekh 3,
 Bhairavi M Anantpur 3
 
 *JRF, Research Scholar, ARDB-DRDO Research Lab, Department of Electronics and Commu-nication Engineering, SDM College of Engineering and Technology, Dharwad-580002, Affiliat-ed to Visvesvaraya Technological University, Belagavi-590018, Karnataka, India
-
 2Assistant Professor, Department of Electronics and Communication Engineering, SDM College of Engineering and Technology, Dharwad-580002, Affiliated to Visvesvaraya Technological University, Belagavi-590018, Karnataka, India
-
 #Assistant Professor, ARDB-DRDO Research Lab, Department of CSE, SDM College of Engi-neering and Technology, Dharwad-580002, Affiliated to Visvesvaraya Technological University, Belagavi-590018, Karnataka, India
 $Associate Professor, Department of AI/ML, Mangalore Institute of Technology and Engineer-ing, Moodabidri, Affiliated to Visvesvaraya Technological University, Belagavi-590018, Karna-taka, India
-
 3Student, Department of CSE, SDM College of Engineering and Technology, Dharwad-580002, Affiliated to Visvesvaraya Technological University, Belagavi, Karnataka, India
+
 1#narchana2006@gmail.com 1*abhilash.hegde1007@gmail.com 
 
 
