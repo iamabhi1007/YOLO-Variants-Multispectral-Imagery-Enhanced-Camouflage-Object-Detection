@@ -104,18 +104,13 @@ References
 14.	Lin, X., Sun, S., Huang, W., Sheng, B., Li, P., & Feng, D.D. (2021). EAPT: Efficient At-tention Pyramid Transformer for Image Processing. IEEE Transactions on Multimedia, 25, 50-61. [DOI: 10.1109/TMM.2021.3120873]
 
 Authors
+
 Abhilash Hegde 1*[0000-0002-0734-9171], 
-
 Siddalingesh S Navalgund 2[0000-0001-6857-915X], 
-
 Archana Nandibewoor 1#$[0000-0002-3698-6057], 
-
 Aachan B Kulkarni 3, 
-
 Anurag G Deshpande 3, 
-
 Abushekh 3, 
-
 Bhairavi M Anantpur 3
 
 *JRF, Research Scholar, ARDB-DRDO Research Lab, Department of Electronics and Commu-nication Engineering, SDM College of Engineering and Technology, Dharwad-580002, Affiliat-ed to Visvesvaraya Technological University, Belagavi-590018, Karnataka, India
