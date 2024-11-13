@@ -29,6 +29,7 @@ python main.py --input <input_file> --output <output_file>
 2. Model Training, Validation, and Testing
 
 Example command for training: (similarly for validation and testing)
+
 python train.py --model yolov8 --data <data_path> --epochs 50
 
 Methodology
